@@ -1,8 +1,9 @@
 import React from "react";
 import { Arms } from "../../components/arms";
+import { BotStates } from "../../components/BotStates";
 import { Head } from "../../components/head";
 
-import { Container, Content, Controlers, LiveStates, Title } from "./styles";
+import { Container, Content, Controlers, Title } from "./styles";
 
 export const Dashboard: React.FC = () => {
   return (
@@ -13,9 +14,7 @@ export const Dashboard: React.FC = () => {
           <Head />
           <Arms />
         </Controlers>
-        <LiveStates>
-          <h1>Live States</h1>
-        </LiveStates>
+        <BotStates />
       </Content>
     </Container>
   );

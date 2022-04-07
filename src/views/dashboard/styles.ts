@@ -26,5 +26,3 @@ export const Content = styled.div`
 `;
 
 export const Controlers = styled.div``;
-
-export const LiveStates = styled.div``;
