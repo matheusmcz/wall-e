@@ -1,0 +1,9 @@
+export const RESET = "RESET";
+
+export const SET_LEFT_ARM_START = "SET_LEFT_ARM";
+export const SET_LEFT_ARM_SUCCESS = "SET_LEFT_ARM_SUCCESS";
+export const SET_LEFT_ARM_ERROR = "SET_LEFT_ARM_ERROR";
+
+export const GET_LEFT_ARM_START = "GET_LEFT_ARM";
+export const GET_LEFT_ARM_SUCCESS = "GET_LEFT_ARM_SUCCESS";
+export const GET_LEFT_ARM_ERROR = "GET_LEFT_ARM_ERROR";
