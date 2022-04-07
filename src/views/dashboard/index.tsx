@@ -1,12 +1,13 @@
 import React from "react";
-import { Arms } from "../components/arms";
-import { Head } from "../components/head";
+import { Arms } from "../../components/arms";
+import { Head } from "../../components/head";
 
-import { Container, Content, Controlers, LiveStates } from "./styles";
+import { Container, Content, Controlers, LiveStates, Title } from "./styles";
 
 export const Dashboard: React.FC = () => {
   return (
     <Container>
+      <Title>Wall-E Controller</Title>
       <Content>
         <Controlers>
           <Head />

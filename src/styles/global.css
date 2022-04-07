@@ -39,6 +39,8 @@ dl, dd {
 
 button {
   cursor: pointer;
+  border: none;
+  background: transparent;
 }
 
 /* Set core root default */
